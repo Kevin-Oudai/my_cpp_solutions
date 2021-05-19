@@ -21,7 +21,7 @@ int main()
 
     // Obtain the total hours
     int totalHours = totalMinutes / 60;
-    totalHours -= offset;
+    totalHours += offset;
     // Compute the current hour
     int currentHour = totalHours % 24;
 

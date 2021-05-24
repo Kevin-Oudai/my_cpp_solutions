@@ -4,6 +4,6 @@ These are my solutions to the exercises listed inside of Introduction to Program
 
 ## Currently Completed Solutions
 
-- [Chapter 1](../tree/main/chapter_01): Introduction to Computers, Programs and C++
-- [Chapter 2](../chapter_02): Elementary Programming
+- [Chapter 1](tree/main/chapter_01): Introduction to Computers, Programs and C++
+- [Chapter 2](chapter_02): Elementary Programming
 - [Chapter 3](../chapter_03): Selections

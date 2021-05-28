@@ -1,6 +1,6 @@
 # My C++ Solutions
 
-These are my solutions to the exercises listed inside of Introduction to Programming with C++ (3rd Edition) by Y. Daniel Liang. I will not put a description of the code since I do not have permission to put it here.
+These are my solutions to the exercises listed inside of Introduction to Programming with C++ (3rd Edition) by Y. Daniel Liang. I will not put the exercise problem for the related code since I do not have permission to put it here.
 
 ## Completed Solutions
 

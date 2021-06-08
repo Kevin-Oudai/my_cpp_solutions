@@ -1,5 +1,3 @@
-// Exercise 5.10 - Find the lowest price
-
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -9,8 +7,8 @@ int main()
     std::cout << "Enter the number of items: ";
     int numberOfItems;
     std::cin >> numberOfItems;
-    std::string lowestName, name, trash;
-    double lowestPrice, price;
+    std::string lowestName, secondLowestName, name, trash;
+    double lowestPrice, secondLowestPrice, price;
     int count = 0;
 
     while (count < numberOfItems)
@@ -25,10 +23,18 @@ int main()
             lowestName = name;
             lowestPrice = price;
         }
+        else if (count == 1 && price > lowestPrice)
+        {
+            secondLowestName = name;
+            secondLowestPrice = price;
+        }
+
         else
         {
             if (price < lowestPrice)
             {
+                secondLowestName = lowestName;
+                secondLowestPrice = lowestPrice;
                 lowestName = name;
                 lowestPrice = price;
             }
@@ -39,6 +45,9 @@ int main()
     std::cout << "The item with the lowest price is: " << lowestName << std::endl;
     std::cout << "The corresponding price is: $" << std::setprecision(2)
               << std::showpoint << std::fixed << lowestPrice << std::endl;
+
+    std::cout << "The item with the second lowest price is: " << secondLowestName << std::endl;
+    std::cout << "The corresponding price is: $" << secondLowestPrice << std::endl;
 
     return 0;
 }

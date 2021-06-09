@@ -10,3 +10,4 @@ These are my solutions to the exercises listed inside of Introduction to Program
 
 - [Chapter 4](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_04): Mathematical Functions, Characters and Strings _(30th May 2021)_
 - [Chapter 5](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_05): Loops _(Pending)_
+- [Chapter 6](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_06): Functions _(Pending)_

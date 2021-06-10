@@ -4,14 +4,13 @@
 
 int main()
 {
-    const int NUMBER_OF_PRIMES = 50;
     const int NUMBER_OF_PRIMES_PER_LINE = 10;
     int count = 0;
     int number = 2;
 
     std::cout << "The first 50 prime numbers are \n";
 
-    while (count < NUMBER_OF_PRIMES)
+    while (count < 100)
     {
         bool isPrime = true;
 
@@ -24,7 +23,7 @@ int main()
             }
         }
 
-        if (isPrime)
+        if (!isPrime)
         {
             count++;
 

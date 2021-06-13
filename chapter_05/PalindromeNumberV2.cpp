@@ -1,4 +1,4 @@
-// Exercise 3.36 - Palindrome Number
+// Exercise 5.39 - Revision of Exercise 3.36 - Palindrome Number
 #include <iostream>
 
 int main()

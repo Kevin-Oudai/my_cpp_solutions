@@ -1,3 +1,4 @@
+// Exercise 3.15 - Game: Scissor, Rock, Paper
 #include <iostream>
 #include <ctime>
 #include <cstdlib>

@@ -85,7 +85,6 @@ int main()
     else
     {
         cout << "Error: invalid status";
-        return 0;
     }
 
     // Display the result

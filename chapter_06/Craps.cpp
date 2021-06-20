@@ -24,6 +24,23 @@ int status(int first, int second, int sum)
         return 2;
 }
 
+void pointCheck(int &firstDice, int &secondDice, int &sum, int &state)
+{
+    std::cout << "point is " << sum << std::endl;
+    int point = sum;
+    toss(firstDice, secondDice, sum);
+    if (point == sum)
+    {
+        std::cout << "You win" << std::endl;
+        state = 1;
+    }
+    else
+    {
+        std::cout << "You lose" << std::endl;
+        state = 0;
+    }
+}
+
 int main()
 {
     srand(time(0));
@@ -41,19 +58,7 @@ int main()
     }
     else
     {
-        std::cout << "point is " << sum << std::endl;
-        point = sum;
-        toss(firstDice, secondDice, sum);
-        if (point == sum)
-        {
-            std::cout << "You win" << std::endl;
-            state = 1;
-        }
-        else
-        {
-            std::cout << "You lose" << std::endl;
-            state = 0;
-        }
+        pointCheck(firstDice, secondDice, sum, state);
     }
     return 0;
 }

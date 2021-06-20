@@ -31,7 +31,7 @@ void displayPalindromes(int displayAmount)
 {
     int count = 1, displayed = 1;
 
-    while (displayed < displayAmount)
+    while (displayed <= displayAmount)
     {
         if (isPalindrome(count) && isEven(count))
         {

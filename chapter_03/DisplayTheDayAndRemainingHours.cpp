@@ -1,3 +1,4 @@
+// Exercise 3.9 - Day and remaining hours
 #include <iostream>
 #include <string>
 

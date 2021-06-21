@@ -16,10 +16,9 @@ bool isPrime(int number)
     return true;
 }
 
-int reverseNumber(int number)
+int reverseNumber(int extract)
 {
-    int reverseNumber = 0, extract;
-    extract = number;
+    int reverseNumber = 0;
     while (extract > 0)
     {
         reverseNumber = (reverseNumber * 10) + (extract % 10);

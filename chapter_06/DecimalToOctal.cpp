@@ -3,17 +3,6 @@
 #include <iostream>
 #include <string>
 
-int reverseNumber(int extract)
-{
-    int reverseNumber = 0;
-    while (extract > 0)
-    {
-        reverseNumber = (reverseNumber * 10) + (extract % 10);
-        extract /= 10;
-    }
-    return reverseNumber;
-}
-
 int stringToInt(std::string value)
 {
     int number = 0;

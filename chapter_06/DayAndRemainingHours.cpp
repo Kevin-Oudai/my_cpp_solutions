@@ -1,17 +1,9 @@
-// Exercise 3.9 - Day and remaining hours
+// Exercise 6.26 - Days and remaining hours
 #include <iostream>
 #include <string>
 
-int main()
+void getDay(int day, std::string &dayName)
 {
-    int day, hoursPassed;
-    std::string dayName;
-    std::cout << "Enter the day number: ";
-    std::cin >> day;
-    std::cout << "Enter the hours passed: ";
-    std::cin >> hoursPassed;
-
-    hoursPassed = 24 - hoursPassed;
     switch (day)
     {
     case 1:
@@ -38,7 +30,23 @@ int main()
     default:
         break;
     }
+}
 
+void getHours(int &hoursPassed)
+{
+    hoursPassed = 24 - hoursPassed;
+}
+
+int main()
+{
+    int day, hoursPassed;
+    std::string dayName;
+    std::cout << "Enter the day number: ";
+    std::cin >> day;
+    std::cout << "Enter the hours passed: ";
+    std::cin >> hoursPassed;
+    getHours(hoursPassed);
+    getDay(day, dayName);
     std::cout << "Today is " << dayName << std::endl;
     std::cout << "Remaining Hours: " << hoursPassed << std::endl;
     return 0;

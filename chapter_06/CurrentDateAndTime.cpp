@@ -54,11 +54,7 @@ int getCurrentMinute(int &totalSeconds)
 
 int getCurrentHour(int &totalMinutes)
 {
-    int offset;
-    std::cout << "Enter the timezone offset to GMT: ";
-    std::cin >> offset;
     int hours = totalMinutes % 24;
-    hours += offset;
     totalMinutes /= 24;
     hours = (hours > 12) ? hours - 12 : hours;
     return hours;

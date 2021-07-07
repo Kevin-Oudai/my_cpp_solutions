@@ -4,7 +4,7 @@
 
 int main()
 {
-    const int SIZE = 1000;
+    const int SIZE = 100;
     bool lockers[SIZE];
     for (int i = 0; i < SIZE; i++)
     {

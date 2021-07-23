@@ -152,6 +152,7 @@ bool noEnemies(bool board[], int size)
     }
     return false;
 }
+
 int main()
 {
     int positions[8] = {56, 49, 42, 35, 28, 21, 14, 7};

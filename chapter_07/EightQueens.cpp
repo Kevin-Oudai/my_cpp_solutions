@@ -1,3 +1,4 @@
+// Exercise 7.18 - Game: Eight Queens
 #include <iostream>
 
 void setBoard(bool board[], int positions[], int boardSize)

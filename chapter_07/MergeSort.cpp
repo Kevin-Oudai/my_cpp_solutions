@@ -6,16 +6,9 @@ void merge(const int list1[], int size1, const int list2[], int size2, int list3
     int list3Count, list2Count = 1, list1Count = 1;
     for (int i = 0; i < size1 + size2; i++)
     {
-        if (list1[list1Count] < list2[list2Count])
-        {
-            list3[i] = list1[list1Count];
-            list1Count++;
-        }
-        else
-        {
-            list3[i] = list2[list2Count];
-            list2Count++;
-        }
+        list1[list1Count] < list2[list2Count]
+            ? list3[i] = list1[list1Count++]
+            : list3[i] = list2[list2Count++];
     }
 }
 

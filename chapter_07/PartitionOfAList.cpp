@@ -11,7 +11,6 @@ void swap(int list[], int index1, int index2)
 
 void displayList(int list[], int size)
 {
-    std::cout << "After the partition, the list is ";
     for (int i = 0; i < size; i++)
     {
         std::cout << list[i] << " ";
@@ -28,10 +27,8 @@ int partition(int list[], int size)
     bool isCorrect = false;
     for (int i = 0; i < size; i++)
     {
-        std::cout << "\tSection " << i << std::endl;
         for (start; start < end; start++)
         {
-            std::cout << "Start: " << start << "\tEnd: " << end << std::endl;
             if (pivot > list[start] && i % 2 == 0)
             {
                 swap(list, pivotIndex, start);
@@ -61,10 +58,8 @@ int main()
     {
         std::cin >> list[i];
     }
-    std::cout << "Before Partition" << std::endl;
     displayList(list, size);
     int pivot = partition(list, size);
-    std::cout << "After Partition" << std::endl;
     displayList(list, size);
 
     return 0;

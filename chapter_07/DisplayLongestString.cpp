@@ -1,4 +1,3 @@
-
 // Exercise 7.32 - Display longest string
 // Revision: Exercise 6.42 - Display Longest String
 

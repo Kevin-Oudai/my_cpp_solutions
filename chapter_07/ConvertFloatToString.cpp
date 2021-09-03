@@ -24,6 +24,12 @@ int main()
 
     char s[100] = "";
     ftoa(f, s);
-    std::cout << "s: " << s << std::endl;
+    std::cout << "The number is ";
+    for (int i = 0; i < strlen(s) - 1; i++)
+    {
+        std::cout << s[i] << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }

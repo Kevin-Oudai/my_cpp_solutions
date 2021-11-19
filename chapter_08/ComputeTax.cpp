@@ -28,7 +28,6 @@ double computeTaxes(const int group[], const double rates[], double income)
             ? upper = income
             : upper = group[i];
 
-        std::cout << "Upper: " << upper << " Income: " << income << " Lower: " << lower << std::endl;
         if (income < upper && income > lower)
         {
             upper = income;

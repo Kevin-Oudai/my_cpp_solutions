@@ -1,3 +1,4 @@
+// Exercise 8.9 - Algebra: Multiply two matrices
 #include <iostream>
 
 const int N = 3;

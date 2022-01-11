@@ -1,42 +1,51 @@
+// Exercise 8.11: Game - nine heads and tails
 #include <iostream>
 
-void displayArray(bool results[])
+const int row = 3, col = 3;
+
+void displayArray(bool results[row][col])
 {
-    for (int j = 1; j <= 9; j++)
+    for (int i = 0; i < row; i++)
     {
-        (results[j - 1]) ? std::cout << "T " : std::cout << "F ";
-        if (j % 3 == 0)
+        for (int j = 0; j < col; j++)
         {
-            std::cout << std::endl;
+            (results[i][j]) ? std::cout << "T " : std::cout << "F ";
         }
+        std::cout << std::endl;
     }
 }
 
-void reverseArray(bool results[])
+void reverseArray(bool results[row][col])
 {
     bool temp;
-    for (int j = 0; j < 5; j++)
+    for (int i = 0; i < 2; i++)
     {
-        temp = results[j];
-        results[j] = results[8 - j];
-        results[8 - j] = temp;
+        for (int j = 0; j < col; j++)
+        {
+            temp = results[i][j];
+            results[i][j] = results[row - 1 - i][col - 1 - j];
+            results[row - 1 - i][col - 1 - j] = temp;
+        }
     }
     displayArray(results);
 }
 
-void fillArray(int number, bool results[])
+void fillArray(int number, bool results[row][col])
 {
-    for (int i = 0; i <= 9; i++)
+    for (int i = 0; i < row; i++)
     {
-        results[i] = number % 2;
-        number /= 2;
+        for (int j = 0; j < col; j++)
+        {
+            results[i][j] = number % 2;
+            number /= 2;
+        }
     }
     reverseArray(results);
 }
 
 int main()
 {
-    bool results[9] = {0};
+    bool results[row][col] = {0};
     int number;
     std::cout << "Enter a number between 0 and 511: ";
     std::cin >> number;

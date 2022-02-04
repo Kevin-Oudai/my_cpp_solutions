@@ -13,5 +13,7 @@ These are my solutions to the exercises listed inside of Introduction to Program
 - [Chapter 6](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_06): Functions _(23rd June 2021)_
 - [Chapter 7](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_07): Single-Dimensional Arrays and C-Strings _(3rd September 2021)_
 - [Chapter 8](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_08): Multidimensional Arrays _(02nd February 2022)_
-- [Chapter 9](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_09): Objects and Classes _(Pending)_
+- [Chapter 9](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_09): Objects and Classes _(04th February 2022)_
+- [Chapter 10](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_10): Object-Oriented Thinking _(Pending)_
+
 

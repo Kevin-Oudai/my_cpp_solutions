@@ -3,7 +3,7 @@
 
 int main()
 {
-    MyInteger a(12);
+    MyInteger a(4);
     std::cout << "Integer is: " << a.getInteger() << std::endl;
     std::cout << a.getInteger() << " is even? " << (a.isEven() ? "Yes" : "No") << std::endl;
     std::cout << a.getInteger() << " is odd? " << (a.isOdd() ? "Yes" : "No") << std::endl;

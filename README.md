@@ -15,6 +15,7 @@ These are my solutions to the exercises listed inside of Introduction to Program
 - [Chapter 8](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_08): Multidimensional Arrays _(02nd February 2022)_
 - [Chapter 9](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_09): Objects and Classes _(04th February 2022)_
 - [Chapter 10](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_10): Object-Oriented Thinking _(13th March 2022)_
-- [Chapter 11](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_11): Pointers and Dynamic Memory Management _(Pending)_
+- [Chapter 11](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_11): Pointers and Dynamic Memory Management _(24th March 2022)_
+- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(Pending)_
 
 

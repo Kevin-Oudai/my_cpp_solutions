@@ -61,7 +61,7 @@ template <typename T>
 void Stack<T>::push(T value)
 {
     ensureCapacity();
-    elemeents[size++] = value;
+    elements[size++] = value;
 }
 
 template <typename T>

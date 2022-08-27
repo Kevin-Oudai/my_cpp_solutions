@@ -1,6 +1,6 @@
 #include <iostream>
 
-template<typename T>
+template <typename T>
 T minElement(T list[], int size)
 {
     T min = list[0];
@@ -17,6 +17,6 @@ T minElement(T list[], int size)
 int main()
 {
     int intArray[] = {2, 5, 4, 7, 9, 1};
-    
+
     return 0;
 }

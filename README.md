@@ -3,6 +3,7 @@
 These are my solutions to the exercises listed inside of Introduction to Programming with C++ (3rd Edition) International Edition by Y. Daniel Liang. I will not put the exercise problem for the related code since I do not have permission to put it here. If you have any code recommendations then leave a pull request. However please remember **I am not allowed to complete the program with code syntax I did not encounter in the book.** Therefore I cannot use loops in a solution before chapter 5.
 
 PLEASE NOTE I AM LEARNING THIS AS A HOBBY SO UPDATES ARE NOT REGULAR.
+
 WITH ADVANCEMENTS IN AI I AM NOT AS MOTIVATED TO LEARN THIS ANYMORE THERE WILL BE NO FURTHER UPDATES _(24th April 2024)_
 
 ## Completed Solutions

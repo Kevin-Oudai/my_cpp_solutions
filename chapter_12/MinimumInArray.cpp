@@ -1,3 +1,20 @@
+// Codex Prompt: Problem 12.1 (Minimum in array)
+//
+// Write a generic C++ function named `minimum` that returns the minimum element from an array.
+// The function should accept two parameters:
+// - A pointer to an array of a generic type `T`.
+// - An integer representing the size of the array.
+//
+// Then write a `main()` function to test `minimum` with three types of arrays:
+// - An array of `int`
+// - An array of `double`
+// - An array of `std::string`
+//
+// Ensure the function works correctly with all three types and print the results.
+//
+// Use `template <typename T>` to define the generic function.
+// Include appropriate headers and ensure the program compiles as a standalone C++ file.
+
 #include <iostream>
 #include <string>
 

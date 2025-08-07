@@ -1,3 +1,35 @@
+// Codex Prompt: exercise12_17.cpp – 24 Game Solver
+//
+// Write a C++ program named `exercise12_17.cpp` that solves the "24 game":
+// Given 4 numbers (integers between 1 and 13), determine if it's possible to insert the operations +, -, *, /
+// and parentheses between them to make an expression that evaluates exactly to 24.
+//
+// Requirements:
+// 1. Prompt the user to enter 4 integers between 1 and 13.
+//    - Validate the input and store it in a vector.
+//
+// 2. Generate all permutations of the 4 numbers using `std::next_permutation()`.
+//    - You can use `std::vector<int>` for storing each permutation.
+//
+// 3. Generate all 64 combinations of 3 operators from the set: +, -, *, /
+//    - Store each operator combination in a `std::vector<char>`.
+//
+// 4. For each permutation of numbers and operator combination, try the 5 possible groupings using parentheses.
+//    - Each grouping should be written using basic string concatenation and `std::to_string()`
+//    - Example of one grouping:
+//         ((a op1 b) op2 c) op3 d
+//         a op1 (b op2 (c op3 d))
+//         and so on (5 total groupings)
+//
+// 5. Use `EvaluateExpression.cpp` from the same folder (chapter_12) to evaluate each built expression string.
+//    - If the result is 24 (you can use a tolerance like `abs(result - 24) < 1e-6`), print the expression and stop.
+//    - Otherwise, keep trying all combinations.
+//
+// 6. If no expression results in 24, print "No solution found."
+//
+// Use a simple, procedural structure — do not use classes.
+// You may write helper functions for things like generating permutations, operator combos, or building expressions if it makes the code clearer.
+// Make sure the program compiles and runs using `g++ -std=c++17`.
 #include <iostream>
 #include <vector>
 #include <string>

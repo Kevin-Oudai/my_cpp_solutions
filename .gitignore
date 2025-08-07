@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
-.vscode
+
+# IDE settings
+.vscode/*
+!.vscode/tasks.json
 
 # Compiled Object files
 *.slo

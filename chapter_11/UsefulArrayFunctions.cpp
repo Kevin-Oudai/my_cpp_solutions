@@ -23,7 +23,7 @@ int main()
     std::cout << "The max value is " << *max << " at index "
               << (max - list) << std::endl;
 
-    std::random_shuffle(list, list + 6);
+    // std::random_shuffle(list, list + 6);
     printArray(list, 6);
 
     std::sort(list, list + 6);

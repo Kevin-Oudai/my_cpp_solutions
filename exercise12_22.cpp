@@ -1,3 +1,22 @@
+/*
+Write a C++ program that defines and uses the following template function to check whether two vectors are strictly identical:
+
+template <typename T>
+bool areStrictlyIdentical(std::vector<T> &v1, std::vector<T> &v2);
+
+The function should:
+1. Return true if both vectors have the same size and all corresponding elements are equal.
+2. Return false otherwise.
+
+The main program should:
+1. Read the size and elements of two integer vectors from the user.
+2. Call areStrictlyIdentical to determine if they are identical.
+3. Output an appropriate message.
+
+Use camelCase descriptive variable names for variables whose names are not specified in the problem.
+Assume both vectors will have the same size in this test.
+*/
+
 #include <iostream>
 #include <vector>
 

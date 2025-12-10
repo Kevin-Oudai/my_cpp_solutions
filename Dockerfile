@@ -1,6 +1,6 @@
 # Multi-stage build to keep the runtime lean.
 # TARGET points to any exercise directory containing C++ sources with a single main.
-ARG TARGET=chapter_12/exercise12_30
+ARG TARGET=chapter_12/exercise12_33
 
 FROM gcc:13 AS build
 ARG TARGET

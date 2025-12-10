@@ -2,7 +2,7 @@
 
 This repository began as my solutions to the exercises in *Introduction to Programming with C++ (3rd Edition) International Edition* by Y. Daniel Liang. It now documents the transition from solving those book-based problems to crafting high-quality prompts for Codex, OpenAI's code generation model.
 
-Starting from **Chapter 12**, each solution is designed as a Codex prompt followed by AI-generated C++ code. Earlier chapters contain hand-written solutions created while progressing through the book, sticking to the rule that no syntax is used before it appears in the text. The original problem statements are not included here due to copyright restrictions.
+Starting from **Chapter 12**, I switched to AI-assisted solutions: each exercise is driven by a Codex-style prompt followed by AI-generated C++ code. Earlier chapters contain hand-written solutions created while progressing through the book, sticking to the rule that no syntax is used before it appears in the text. The original problem statements are not included here due to copyright restrictions.
 
 I am learning this as a hobby, so updates are not regular.
 
@@ -34,5 +34,6 @@ If you'd like to contribute:
 - [Chapter 9](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_09): Objects and Classes _(04th February 2022)_
 - [Chapter 10](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_10): Object-Oriented Thinking _(13th March 2022)_
 - [Chapter 11](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_11): Pointers and Dynamic Memory Management _(24th March 2022)_
-- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(Pending – Codex prompt format)_
+- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(12th October 2025)_
+- [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): Creating new solutions going forward_
 

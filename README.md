@@ -34,6 +34,6 @@ If you'd like to contribute:
 - [Chapter 9](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_09): Objects and Classes _(04th February 2022)_
 - [Chapter 10](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_10): Object-Oriented Thinking _(13th March 2022)_
 - [Chapter 11](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_11): Pointers and Dynamic Memory Management _(24th March 2022)_
-- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(12th October 2025)_
-- [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): Creating new solutions going forward_
-
+- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(AI-assisted with Dockerized builds, completed 10th December 2025)_
+- [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): DID NOT DO. I DID NOT WANT TO DOWNLOAD THE FILE.
+- [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, ongoing)_

@@ -1,0 +1,10 @@
+.git
+.vscode
+**/build
+**/bin
+**/cmake-build*
+**/CMakeFiles
+**/*.o
+**/*.obj
+**/*.exe
+*.log

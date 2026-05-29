@@ -1,0 +1,10 @@
+1 Jacob 21,875 Isabella 22,731
+2 Ethan 17,866 Sophia 20,477
+3 Michael 17,133 Emma 17,179
+4 Jayden 17,030 Olivia 16,860
+5 William 16,870 Ava 15,300
+6 Taylor 12,000 Taylor 11,000
+7 Ryan 11,900 Ryan 10,800
+8 Christian 11,500 Christian 10,600
+9 Jordan 11,100 Jordan 10,500
+190 Javier 2,000 Samantha 3,500

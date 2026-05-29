@@ -1,0 +1,6 @@
+1 Jacob 25,000 Emma 21,500
+2 Michael 24,000 Isabella 18,900
+3 Ethan 17,900 Emily 21,000
+4 Joshua 22,800 Olivia 16,000
+5 Hayden 8,100 Hayden 7,400
+6 Jamie 7,500 Jamie 6,700

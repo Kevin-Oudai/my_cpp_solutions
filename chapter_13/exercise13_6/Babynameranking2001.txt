@@ -1,0 +1,6 @@
+1 Jacob 32,500 Emily 25,000
+2 Michael 29,000 Madison 22,000
+3 Matthew 27,000 Hannah 21,000
+4 Taylor 10,000 Taylor 9,000
+5 Ryan 9,500 Ryan 8,500
+6 Christian 9,000 Christian 8,000

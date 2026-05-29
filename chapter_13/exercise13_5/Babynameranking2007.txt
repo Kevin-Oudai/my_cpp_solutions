@@ -1,0 +1,6 @@
+1 Jacob 26,000 Emily 22,000
+2 Michael 24,900 Isabella 18,500
+3 Ethan 17,500 Emma 20,000
+4 Joshua 23,500 Ava 15,500
+5 Reese 8,200 Reese 7,500
+6 Casey 7,700 Casey 6,800

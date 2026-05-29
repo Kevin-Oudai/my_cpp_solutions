@@ -1,0 +1,6 @@
+1 Jacob 27,000 Emily 22,500
+2 Michael 25,500 Emma 20,400
+3 Joshua 24,000 Madison 19,200
+4 Ethan 17,000 Isabella 13,900
+5 Peyton 8,700 Peyton 7,800
+6 Quinn 7,900 Quinn 6,900

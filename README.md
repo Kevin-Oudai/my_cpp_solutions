@@ -6,12 +6,25 @@ Starting from **Chapter 12**, I switched to AI-assisted solutions: each exercise
 
 I am learning this as a hobby, so updates are not regular.
 
+## Building Exercises
+
+This project uses one root Dockerfile for exercise builds. Pass the exercise
+folder as `TARGET`:
+
+```powershell
+docker build --build-arg TARGET=chapter_13/exercise13_21 -t exercise13_21 .
+docker run --rm -it exercise13_21
+```
+
+For exercises that write files, mount the exercise folder when running so output
+files are written back to the working tree.
+
 ## Using This Project with Codex
 
 1. Each chapter directory from Chapter 12 onward contains a `prompt.md` describing the problem.
 2. Provide the prompt to Codex and let it generate an initial C++ solution.
 3. Review, run, and refine the generated code.
-4. Commit both the prompt and the final code so readers can see the prompt–response pair.
+4. Commit both the prompt and the final code so readers can see the prompt-response pair.
 
 ## Contributor Guidelines
 
@@ -34,6 +47,6 @@ If you'd like to contribute:
 - [Chapter 9](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_09): Objects and Classes _(04th February 2022)_
 - [Chapter 10](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_10): Object-Oriented Thinking _(13th March 2022)_
 - [Chapter 11](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_11): Pointers and Dynamic Memory Management _(24th March 2022)_
-- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(12th October 2025)_
-- [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): DID NOT DO. I DID NOT WANT TO DOWNLOAD THE FILE.
-
+- [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(AI-assisted with Dockerized builds, completed 10th December 2025)_
+- [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): File Input/Output _(AI-assisted, class-based exercise folders with bundled test files, completed 29th May 2026)_
+- [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, built through the root Dockerfile starting 10th December 2025)_

@@ -1,0 +1,6 @@
+1 Jacob 28,800 Emily 23,500
+2 Michael 26,900 Emma 20,800
+3 Joshua 25,200 Madison 19,800
+4 Daniel 14,000 Olivia 10,200
+5 Jordan 9,400 Jordan 8,300
+6 Morgan 8,600 Morgan 7,500

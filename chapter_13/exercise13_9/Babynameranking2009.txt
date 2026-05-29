@@ -1,0 +1,6 @@
+1 Jacob 24,000 Isabella 22,000
+2 Ethan 18,000 Emma 20,900
+3 Michael 23,000 Olivia 16,500
+4 Alexander 18,200 Sophia 16,000
+5 Skyler 7,900 Skyler 7,100
+6 Kendall 7,400 Kendall 6,600

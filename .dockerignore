@@ -1,0 +1,13 @@
+.git
+.vscode
+**/build
+**/bin
+**/cmake-build*
+**/CMakeFiles
+**/*.o
+**/*.obj
+**/*.exe
+**/*.new
+**/*.dat
+!chapter_13/exercise13_15/Exercise13_15.dat
+*.log

@@ -1,0 +1,6 @@
+1 Jacob 29,500 Emily 24,000
+2 Michael 27,500 Emma 21,000
+3 Joshua 25,800 Madison 20,000
+4 Tyler 10,200 Olivia 9,800
+5 Taylor 9,600 Taylor 8,600
+6 Cameron 8,800 Cameron 7,900

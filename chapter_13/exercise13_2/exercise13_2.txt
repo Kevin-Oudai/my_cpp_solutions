@@ -1,0 +1,3 @@
+This file is used for Exercise 13.2.
+It has vowels in uppercase and lowercase.
+A E I O U and a e i o u are all counted.

@@ -1,0 +1,3 @@
+This file is used for Exercise 13.1.
+The program counts every character in this file.
+Then it appends the count to the same file.

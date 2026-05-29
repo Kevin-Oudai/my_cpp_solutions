@@ -31,9 +31,22 @@
 *.lib
 
 # Executables
+runme
 *.exe
 *.out
 *.app
 
 # Text Files
 *.txt
+!chapter_13/exercise13_*/*.txt
+
+# Generated exercise outputs
+*.new
+*.dat
+!chapter_13/exercise13_15/Exercise13_15.dat
+chapter_13/exercise13_16/copied_*
+chapter_13/exercise13_17/*.bin.*
+chapter_13/exercise13_18/combined_output.bin
+chapter_13/exercise13_19/encrypted.bin
+chapter_13/exercise13_20/decrypted.txt
+chapter_13/exercise13_22/Exercise13_22.dat

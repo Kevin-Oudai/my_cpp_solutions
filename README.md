@@ -50,3 +50,4 @@ If you'd like to contribute:
 - [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(AI-assisted with Dockerized builds, completed 10th December 2025)_
 - [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): File Input/Output _(AI-assisted, class-based exercise folders with bundled test files, completed 29th May 2026)_
 - [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, class-based exercise folders built through the root Dockerfile, completed 29th May 2026)_
+- [Chapter 15](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_15): Inheritance and Polymorphism _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 15.1-15.5 completed 29th May 2026)_

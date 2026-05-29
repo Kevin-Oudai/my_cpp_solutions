@@ -24,7 +24,7 @@ user with a clear way to test it.
 ## Chapter And File Locations
 
 - Chapter directories use two digits: `chapter_01`, `chapter_02`, ...,
-  `chapter_14`.
+  `chapter_15`.
 - For Chapter 13 and later work, create one directory per exercise:
   `chapter_XX/exerciseXX_N/`.
 - Name the main program after the exercise directory:
@@ -52,14 +52,25 @@ chapter_14/exercise14_3/
   Rational.cpp
 ```
 
+Example for Exercise 15.1:
+
+```text
+chapter_15/exercise15_1/
+  exercise15_1.cpp
+  GeometricObject.h
+  GeometricObject.cpp
+  Triangle.h
+  Triangle.cpp
+```
+
 ## Language Constraints
 
 - Use only C++ tools, syntax, library features, functions, and techniques that
   have appeared in the current or earlier chapters.
 - Do not use later-language conveniences just because they are available.
 - Prefer the style already used in nearby exercises over modernizing the code.
-- If a problem is from Chapter 14, Chapter 14 material is allowed, but Chapter 15
-  or later concepts are not.
+- If a problem is from the current chapter, that chapter's material is allowed,
+  but later chapter concepts are not.
 - Avoid adding abstractions that are not requested by the exercise.
 
 ## Implementation Rules

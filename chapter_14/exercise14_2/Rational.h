@@ -22,6 +22,7 @@ private:
     // r[0] = numerator, r[1] = denominator
     int r[2];
 
+    static long long greatestCommonDivisor(long long n, long long d);
     void reduce();
 };
 

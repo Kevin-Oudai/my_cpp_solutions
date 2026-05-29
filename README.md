@@ -49,4 +49,4 @@ If you'd like to contribute:
 - [Chapter 11](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_11): Pointers and Dynamic Memory Management _(24th March 2022)_
 - [Chapter 12](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_12): Templates, Vectors and Stacks _(AI-assisted with Dockerized builds, completed 10th December 2025)_
 - [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): File Input/Output _(AI-assisted, class-based exercise folders with bundled test files, completed 29th May 2026)_
-- [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, exercise folders built through the root Dockerfile; exercises 14.1-14.6 in progress)_
+- [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, exercise folders built through the root Dockerfile; exercises 14.1-14.10 in progress)_

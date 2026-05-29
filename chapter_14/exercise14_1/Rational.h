@@ -22,6 +22,7 @@ private:
     long long num;
     long long den;
 
+    static long long greatestCommonDivisor(long long n, long long d);
     void reduce();
 };
 

@@ -1,13 +1,12 @@
 #include "Rational.h"
 #include <iostream>
-#include <numeric>
-#include <stdexcept>
 
 Rational::Rational(long long n, long long d)
 {
     if (d == 0)
     {
-        throw std::invalid_argument("Denominator cannot be zero");
+        n = 0;
+        d = 1;
     }
     r[0] = static_cast<int>(n);
     r[1] = static_cast<int>(d);
@@ -49,9 +48,38 @@ std::ostream &operator<<(std::ostream &os, const Rational &rat)
     return os;
 }
 
+long long Rational::greatestCommonDivisor(long long n, long long d)
+{
+    if (n < 0)
+    {
+        n = -n;
+    }
+    if (d < 0)
+    {
+        d = -d;
+    }
+
+    if (n == 0)
+    {
+        return d == 0 ? 1 : d;
+    }
+    if (d == 0)
+    {
+        return n;
+    }
+
+    while (d != 0)
+    {
+        long long remainder = n % d;
+        n = d;
+        d = remainder;
+    }
+    return n;
+}
+
 void Rational::reduce()
 {
-    long long g = std::gcd(static_cast<long long>(r[0]), static_cast<long long>(r[1]));
+    long long g = greatestCommonDivisor(static_cast<long long>(r[0]), static_cast<long long>(r[1]));
     if (g != 0)
     {
         r[0] = static_cast<int>(r[0] / g);

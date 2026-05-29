@@ -24,7 +24,7 @@ user with a clear way to test it.
 ## Chapter And File Locations
 
 - Chapter directories use two digits: `chapter_01`, `chapter_02`, ...,
-  `chapter_15`.
+  `chapter_16`.
 - For Chapter 13 and later work, create one directory per exercise:
   `chapter_XX/exerciseXX_N/`.
 - Name the main program after the exercise directory:

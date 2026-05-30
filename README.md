@@ -8,6 +8,21 @@ I am learning this as a hobby, so updates are not regular.
 
 ## Building Exercises
 
+To build native Windows executables for the class-based exercise folders, run:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build_exercise_exes.ps1
+```
+
+The script builds Chapter 13 through Chapter 18 exercise folders by default and
+writes an `exerciseXX_N.exe` file inside each exercise directory. The generated
+`.exe` files are ignored by git and are only for local testing. If `g++` is not
+on `PATH`, pass the compiler explicitly:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build_exercise_exes.ps1 -Compiler C:\MinGW\bin\g++.exe
+```
+
 This project uses one root Dockerfile for exercise builds. Pass the exercise
 folder as `TARGET`:
 

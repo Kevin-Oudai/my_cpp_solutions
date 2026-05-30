@@ -24,7 +24,7 @@ user with a clear way to test it.
 ## Chapter And File Locations
 
 - Chapter directories use two digits: `chapter_01`, `chapter_02`, ...,
-  `chapter_17`.
+  `chapter_18`.
 - For Chapter 13 and later work, create one directory per exercise:
   `chapter_XX/exerciseXX_N/`.
 - Name the main program after the exercise directory:
@@ -94,6 +94,10 @@ chapter_15/exercise15_1/
   depends on that file to run, such as a restore/read exercise.
 - For binary copy, split, combine, encryption, and object-storage exercises, use
   binary file I/O with `read`, `write`, `get`, or `put` as appropriate.
+- For Chapter 18 prime-file exercises, keep `Exercise18_8.dat` as a generated,
+  ignored runtime file. Programs that depend on it may create a small local
+  sample file for testing, but the full exercise still uses the same file name
+  and supports resuming from existing data.
 
 ## Docker Builds
 

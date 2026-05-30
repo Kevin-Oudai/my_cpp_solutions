@@ -52,3 +52,4 @@ If you'd like to contribute:
 - [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, class-based exercise folders built through the root Dockerfile, completed 29th May 2026)_
 - [Chapter 15](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_15): Inheritance and Polymorphism _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 15.1-15.5 completed 29th May 2026)_
 - [Chapter 17](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_17): Recursion _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 17.1-17.24 completed 29th May 2026)_
+- [Chapter 18](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_18): Developing Efficient Algorithms _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 18.1-18.15 completed 30th May 2026)_

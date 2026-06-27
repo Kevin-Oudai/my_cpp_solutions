@@ -6,25 +6,28 @@ repository's existing naming style.
 
 ## Goal
 
-When the user submits an image of an exercise, create the relevant C++ files in
-the correct chapter/exercise location, build the program, run it, and leave the
-user with a clear way to test it.
+When the user submits an image or PDF of an exercise, create the relevant C++
+files in the correct chapter/exercise location, build the program, run it, and
+leave the user with a clear way to test it.
 
 ## Problem Intake
 
-- Read the exercise image and identify the chapter number, exercise number,
-  required classes, required functions, and sample input/output.
+- Read the exercise image or PDF and identify the chapter number, exercise
+  number, required classes, required functions, and sample input/output.
+- If the user provides a full chapter PDF, extract the programming exercises
+  and any chapter listings needed to implement them. Use those listings as the
+  allowed chapter material for the exercises.
 - Do not copy long textbook problem statements into repository files. Summarize
   only what is necessary to implement and test the solution.
-- If the image does not show the chapter or exercise number, inspect nearby
-  repository conventions and ask the user for the missing number before creating
-  files.
-- If the image is ambiguous, state the assumption in the final response.
+- If the image or PDF does not show the chapter or exercise number, inspect
+  nearby repository conventions and ask the user for the missing number before
+  creating files.
+- If the image or PDF is ambiguous, state the assumption in the final response.
 
 ## Chapter And File Locations
 
 - Chapter directories use two digits: `chapter_01`, `chapter_02`, ...,
-  `chapter_18`.
+  `chapter_19`, and so on.
 - For Chapter 13 and later work, create one directory per exercise:
   `chapter_XX/exerciseXX_N/`.
 - Name the main program after the exercise directory:

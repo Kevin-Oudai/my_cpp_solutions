@@ -14,7 +14,7 @@ To build native Windows executables for the class-based exercise folders, run:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build_exercise_exes.ps1
 ```
 
-The script builds Chapter 13 through Chapter 18 exercise folders by default and
+The script builds Chapter 13 through Chapter 19 exercise folders by default and
 writes an `exerciseXX_N.exe` file inside each exercise directory. The generated
 `.exe` files are ignored by git and are only for local testing. If `g++` is not
 on `PATH`, pass the compiler explicitly:
@@ -66,6 +66,7 @@ If you'd like to contribute:
 - [Chapter 13](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_13): File Input/Output _(AI-assisted, class-based exercise folders with bundled test files, completed 29th May 2026)_
 - [Chapter 14](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_14): Operator Overloading and Templates _(AI-assisted, class-based exercise folders built through the root Dockerfile, completed 29th May 2026)_
 - [Chapter 15](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_15): Inheritance and Polymorphism _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 15.1-15.5 completed 29th May 2026)_
-- [Chapter 16](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_16): Exception Handling _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 16.1-16.9 in progress)_
+- [Chapter 16](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_16): Exception Handling _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 16.1-16.9 completed 27th June 2026)_
 - [Chapter 17](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_17): Recursion _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 17.1-17.24 completed 29th May 2026)_
 - [Chapter 18](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_18): Developing Efficient Algorithms _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 18.1-18.15 completed 30th May 2026)_
+- [Chapter 19](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_19): Sorting _(AI-assisted from a full chapter PDF, class-based exercise folders built through the root Dockerfile; exercises 19.1-19.9 completed 27th June 2026)_

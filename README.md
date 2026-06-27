@@ -14,7 +14,7 @@ To build native Windows executables for the class-based exercise folders, run:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build_exercise_exes.ps1
 ```
 
-The script builds Chapter 13 through Chapter 19 exercise folders by default and
+The script builds Chapter 13 through Chapter 20 exercise folders by default and
 writes an `exerciseXX_N.exe` file inside each exercise directory. The generated
 `.exe` files are ignored by git and are only for local testing. If `g++` is not
 on `PATH`, pass the compiler explicitly:
@@ -70,3 +70,4 @@ If you'd like to contribute:
 - [Chapter 17](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_17): Recursion _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 17.1-17.24 completed 29th May 2026)_
 - [Chapter 18](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_18): Developing Efficient Algorithms _(AI-assisted, class-based exercise folders built through the root Dockerfile; exercises 18.1-18.15 completed 30th May 2026)_
 - [Chapter 19](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_19): Sorting _(AI-assisted from a full chapter PDF, class-based exercise folders built through the root Dockerfile; exercises 19.1-19.9 completed 27th June 2026)_
+- [Chapter 20](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_20): Linked Lists, Queues, and Priority Queues _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 20.1-20.10 completed 27th June 2026)_

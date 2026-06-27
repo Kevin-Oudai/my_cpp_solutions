@@ -1,0 +1,19 @@
+#include <iostream>
+
+class Welcome
+{
+public:
+    void print()
+    {
+        int count = 3;
+        while (count > 0)
+            count--;
+    }
+};
+
+int main()
+{
+    Welcome welcome;
+    welcome.print();
+    return 0;
+}

@@ -39,6 +39,9 @@ runme
 # Text Files
 *.txt
 !chapter_13/exercise13_*/*.txt
+!chapter_22/exercise22_*/*.txt
+!chapter_24/exercise24_*/*.txt
+!chapter_25/exercise25_*/*.txt
 
 # Generated exercise outputs
 *.new

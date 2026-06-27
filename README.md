@@ -14,7 +14,7 @@ To build native Windows executables for the class-based exercise folders, run:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build_exercise_exes.ps1
 ```
 
-The script builds Chapter 13 through Chapter 21 exercise folders by default and
+The script builds Chapter 13 through Chapter 27 exercise folders by default and
 writes an `exerciseXX_N.exe` file inside each exercise directory. The generated
 `.exe` files are ignored by git and are only for local testing. If `g++` is not
 on `PATH`, pass the compiler explicitly:
@@ -72,3 +72,9 @@ If you'd like to contribute:
 - [Chapter 19](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_19): Sorting _(AI-assisted from a full chapter PDF, class-based exercise folders built through the root Dockerfile; exercises 19.1-19.9 completed 27th June 2026)_
 - [Chapter 20](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_20): Linked Lists, Queues, and Priority Queues _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 20.1-20.10 completed 27th June 2026)_
 - [Chapter 21](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_21): Binary Search Trees _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 21.1-21.10 completed 27th June 2026)_
+- [Chapter 22](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_22): STL Containers _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 22.1-22.17 completed 27th June 2026)_
+- [Chapter 23](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_23): STL Algorithms _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 23.1-23.12 completed 27th June 2026)_
+- [Chapter 24](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_24): Graphs and Applications _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 24.1-24.13 completed 27th June 2026)_
+- [Chapter 25](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_25): Weighted Graphs and Applications _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 25.1-25.12 completed 27th June 2026)_
+- [Chapter 26](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_26): AVL Trees and Splay Trees _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 26.1-26.9 completed 27th June 2026)_
+- [Chapter 27](https://github.com/Kevin-Oudai/my_cpp_solutions/tree/main/chapter_27): Hashing _(AI-assisted from a full chapter PDF, exercise folders built through the root Dockerfile; exercises 27.1-27.15 completed 27th June 2026)_

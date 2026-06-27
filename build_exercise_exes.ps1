@@ -1,5 +1,5 @@
 param(
-    [int[]]$Chapters = (13..21),
+    [int[]]$Chapters = (13..27),
     [string]$Compiler = ""
 )
 

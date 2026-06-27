@@ -12,5 +12,10 @@ public:
         this->u = u;
         this->v = v;
     }
+
+    virtual ~Edge()
+    {
+    }
 };
+
 #endif
